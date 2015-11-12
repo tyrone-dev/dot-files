@@ -1,2 +1,5 @@
-# vim_ty
-Contains my customized .vimrc file
+#  dot-files
+Contains my customized dot files
+  .vimrc file
+  .bashrc file
+  .inputrc file
