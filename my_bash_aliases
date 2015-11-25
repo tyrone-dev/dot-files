@@ -1,0 +1,26 @@
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'i
+alias l.='ls -d .* --color=auto'
+alias cd..='cd ..'
+alias ..='cd ..'
+alias mkdir='mkdir -pv'
+alias mount='mount | column -t'
+alias h='history'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowdate='date +"%d-%m-%Y"'
+alias ping='ping -c 5'
+alias pingfast='ping -c 100 -s.2'
+alias ports='netstat -tulanp'
+alias rm='rm -I --preserve-root'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+alias apt-get='sudo apt-get'
+alias update='sudo apt-get update && sudo apt-get upgrade --yes'
+
+
+# my custom aliases
+alias c='clear'
