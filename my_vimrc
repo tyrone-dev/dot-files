@@ -33,3 +33,6 @@ set number
 
 " Allow hidden buffers, don't limit to 1 file per window/split
 set hidden
+
+" enable search highlighting
+set hlsearch
