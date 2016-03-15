@@ -24,3 +24,4 @@ alias update='sudo apt-get update && sudo apt-get upgrade --yes'
 
 # my custom aliases
 alias c='clear'
+alias ~='cd ~/'
