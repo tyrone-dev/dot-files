@@ -19,12 +19,34 @@
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
+
+set nobackup
+set noswapfile
+set autowrite
+
+" python
+set tabstop=4
+set shiftwidth=4
+set shiftround
+set expandtab
+
+set autoindent
+
+" over 80 char per line warning
+highligh ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+
+" display dots for trailing white spaces
+" display >> for tabs
+exec "set listchars=tab:\uBB\uBB,trail:\uB7,nbsp:~"
+set list
+
 " Make backspace behave in a sane manner.
 set backspace=indent,eol,start
 
 " Switch syntax highlighting on
 syntax on
-
+syntax enable
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
@@ -34,5 +56,5 @@ set number
 " Allow hidden buffers, don't limit to 1 file per window/split
 set hidden
 
-" enable search highlighting
+" Enable search highlighting
 set hlsearch
