@@ -9,6 +9,8 @@
 " Used, customized and tailored by: Tyrone van Balla
 " Date of Inception: 02 August 2015
 "
+" Last Modified:        19 May 2016
+"
 " To use it, copy it to
 "  for Unix based systems (including OSX and Linux):  ~/.vimrc
 "  for Windows :  $VIM\_vimrc
