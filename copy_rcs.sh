@@ -6,3 +6,4 @@ cp my_vimrc ~/.vimrc
 cp new_bashrc_with_colour ~/.bashrc
 cp my_inputrc ~/.inputrc
 cp my_dircolors ~/.dircolors
+cp my_profile ~/.profile
