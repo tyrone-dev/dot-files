@@ -63,3 +63,6 @@ set hlsearch
 
 " git commit messages
 autocmd Filetype gitcommit setlocal spell textwidth=72
+
+" Automatic word wrapping
+set textwidth=79
