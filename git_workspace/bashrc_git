@@ -67,6 +67,7 @@ red="\[\033[00;31m\]"
 cyan="\[\033[00;36m\]"
 gray="\[\033[01;34m\]"
 white="\[\033[0m\]"
+orange="\[\033[01;31m\]"
 
 # Change command prompt
 source ~/git-prompt.sh
