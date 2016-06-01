@@ -1,10 +1,13 @@
 # some more ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
-alias l='ls -CF'i
+alias l='ls -CF'
 alias l.='ls -d .* --color=auto'
 alias cd..='cd ..'
 alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias ~='cd ~'
 alias mkdir='mkdir -pv'
 alias mount='mount | column -t'
 alias h='history'
@@ -20,8 +23,13 @@ alias cp='cp -i'
 alias ln='ln -i'
 alias apt-get='sudo apt-get'
 alias update='sudo apt-get update && sudo apt-get upgrade --yes'
+alias ipy="python -c 'import IPython;
+IPython.terminal.ipapp.launch_new_instance()'"
 
 
 # my custom aliases
 alias c='clear'
-alias ~='cd ~/'
+alias sync_scs='rsync -azP --delete /home/tyronevb/mkat_dsp_fpga/skarab_control_software dbelab02:'
+alias sync_casper='rsync -azP --delete /home/tyronevb/mkat_dsp_fpga/casperfpga dbelab02:'
+alias sync_sdk_work='rsync -azP --delete /home/tyronevb/mkat_dsp_fpga/skarab_bsp_firmware dbelab02:'
+alias pull_sdk_work='rsync -azP --delete dbelab02:/home/tvanballa/skarab_bsp_firmware /home/tyronevb/mkat_dsp_fpga/'
